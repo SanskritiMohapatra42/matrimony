@@ -1,0 +1,32 @@
+Create table users
+(
+	Name			varchar2(50),
+	Gender 			varchar2(30),
+	Date_of_birth	varchar2(30),
+	religion		varchar2(30),
+	mother_tongue	varchar2(30),
+	cast			varchar2(30),
+	mobile			varchar2(30),
+	emailid			varchar2(30),
+	password		varchar2(30),
+	photo			blob
+);
+
+Create table matrimony_mail
+(
+	sender			varchar2(50),
+	receiver		varchar2(50),
+	subject			varchar2(50),
+	message			varchar2(100),
+	msgdate			varchar2(50),
+	name			varchar2(50)
+); 	
+
+Create table matrimony_interest
+(
+	sender varchar2(50),
+	receiver varchar2(50)
+);
+Requirement : 
+
+oracle 10.0 / 11.0  
